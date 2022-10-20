@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+*{
+padding:0 ;
+margin:0 ;
+text-decoration: none ;
+list-style: none ;
+box-sizing: border-box ;
+}
+body{
+font-family:montserrat;
+}
+nav{
+background : DarkOliveGreen;
+height : 80px;
+width : 100%;
+}
+label.logo{
+color : white;
+font-size : 35px;
+font-weight:bold;
+line-height:80px;
+padding: 0 80px;
+}
+nav ul {
+float :right ;
+margin-right: ;
+}
+nav ul li{
+display : inline-block;
+line-height : 80px;
+margin:  0 5px;
+margin-right : 20px;
+}
+nav ul li a{
+color : white ; 
+font-size : 17px;
+text-transform : uppercase;
+border-radius : 5px;
+}
+a:hover{
+background : DarkSalmon;
+transition : .5s;
+}
+</style>
+
+<body>
+<nav>
+<label class="logo">DesignX</label>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</nav>
+
+</body>
+</html>
+
+
